@@ -98,7 +98,7 @@
                 <snapshotRepository>
                       <id>1</id>
                         <name>Dépôt d’entreprise</name>
-                        <url>http://localhost:8081/nexus/content/repositories/localrepository/</url>
+                        <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
         </distributionManagement>
 
