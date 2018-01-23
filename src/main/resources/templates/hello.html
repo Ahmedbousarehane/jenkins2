@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1" />
+<title>hello</title>
+</head>
+<body>
+<a th:href="@{/}"></a>
+	<h1>
+	<div th:if="${user.email}" > 
+		Bonjour <span th:text="${user.email}" ></span></div>
+	</h1>
+	<h2>Voici la liste des utilisateurs : </h2>
+	<ul>
+	<li><a href="/achraf">achraf@gmail.com</a> 
+	</li>
+	<li><a href="/omar">omar@gmail.com</a></li>
+	</ul>
+	<a href="/logout">Log Out</a>
+</body>
+</html>
